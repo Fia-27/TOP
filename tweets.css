@@ -1,0 +1,23 @@
+*{ /* Applied to all elements */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #333333;
+}
+header{
+    background-color: #0c0c0c;
+}
+.body-text{
+    justify-self: center;
+    color: #FCE300;
+}
+.container{ /* Keeps it responsive and looking good on different devices */
+    width: 90vw;
+    max-width: 62.5em;
+    position: relative;
+    margin: auto;
+}
+
